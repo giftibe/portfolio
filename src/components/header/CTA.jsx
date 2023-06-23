@@ -3,7 +3,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import CV from '../../assets/CV_.pdf'
 
-const CTA = () => {
+const Cta = () => {
     return (
         <div className='cta'>
             <a href={CV} download className='btn'>Download CV</a>
@@ -12,7 +12,5 @@ const CTA = () => {
     )
 }
 
-export default CTA
 
-
-
+export default Cta
