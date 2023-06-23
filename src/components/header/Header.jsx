@@ -6,7 +6,7 @@ import HeaderSocials from './HeaderSocials'
 
 
 import './header.css'
-import CTA from './CTA'
+import Cta from './CTA'
 
 function Header() {
     return (
@@ -15,7 +15,7 @@ function Header() {
                 <h5>Hello I&apos;m</h5>
                 <h1>Gift Ibe</h1>
                 <h5 className='text-light'>Backend Developer</h5>
-                <CTA />
+                <Cta />
                 <HeaderSocials />
 
                 <div className="me">
