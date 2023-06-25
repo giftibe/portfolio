@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import ReactDOM from 'react-dom/client'
+import ReactDOM from 'react-dom'
 import ME from '../../assets/me.jpg'
 import HeaderSocials from './HeaderSocials'
 
@@ -19,7 +19,7 @@ function Header() {
                 <HeaderSocials />
 
                 <div className="me">
-                    <img src={ME} alt="" />
+                    <img src={ME} alt="My image" />
                 </div>
                 <a href="#contact" className='scroll__down'>Scroll down</a>
             </div>
