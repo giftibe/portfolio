@@ -6,6 +6,7 @@ import './footer.css'
 
 function Footer() {
     return (
+        // still in progress
         <div>Footer</div>
     )
 }
