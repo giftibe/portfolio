@@ -39,10 +39,19 @@ function Experience() {
                                 <small className='text-light'>Experienced</small>
                             </div>
                         </article>
+
                         <article className='experience__details'>
                             <BsFillPatchCheckFill className='experience__details-icon' />
                             <div>
                                 <h4>Bootstrap</h4>
+                                <small className='text-light'>Experienced</small>
+                            </div>
+                        </article>
+
+                        <article className='experience__details'>
+                            <BsFillPatchCheckFill className='experience__details-icon' />
+                            <div>
+                                <h4>Swiper</h4>
                                 <small className='text-light'>Experienced</small>
                             </div>
                         </article>
@@ -87,7 +96,7 @@ function Experience() {
                         <article className='experience__details'>
                             <BsFillPatchCheckFill className='experience__details-icon' />
                             <div>
-                                <h4>Express JS</h4>
+                                <h4>ExpressJS</h4>
                                 <small className='text-light'>Experienced</small>
                             </div>
                         </article>
