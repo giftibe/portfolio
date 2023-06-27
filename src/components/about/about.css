@@ -84,6 +84,10 @@
     }
 }
 
+.about__section {
+    margin-top: -6rem;
+}
+
 /* ============= MEDIA QUERIES (SMALL DEVICES) ================= */
 
 @media screen and (max-width: 600px) {
@@ -102,6 +106,6 @@
     }
 
     .about__content p {
-        margin: 1.5rem 0    ;
+        margin: 1.5rem 0;
     }
 }

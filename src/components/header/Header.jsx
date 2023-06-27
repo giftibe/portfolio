@@ -17,10 +17,6 @@ function Header() {
                 <h5 className='text-light'>Backend Developer</h5>
                 <Cta />
                 <HeaderSocials />
-
-                <div className="me">
-                    <img src={ME} alt="My image" />
-                </div>
                 <a href="#contact" className='scroll__down'>Scroll down</a>
             </div>
 
