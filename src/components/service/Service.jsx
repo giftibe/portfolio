@@ -12,7 +12,7 @@ function Service() {
             <h2>Services</h2>
 
             <div className=" .container services__container">
-                <article className='service'>
+                {/* <article className='service'>
                     <div className="service__head">
                         <h3>UI/UX Design</h3>
                     </div>
@@ -37,7 +37,7 @@ function Service() {
                             <p>Lorem ipsum dolor sit amet consectetur elit.</p>
                         </li>
                     </ul>
-                </article>
+                </article> */}
 
 
                 <article className='service'>

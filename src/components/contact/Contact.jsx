@@ -1,13 +1,24 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
 import ReactDOM from 'react-dom/client'
+import React from 'react'
 
 import './contact.css'
 import { MdOutlineMailOutline } from 'react-icons/md'
 import { BsLinkedin } from 'react-icons/bs'
 import { BsWhatsapp } from 'react-icons/bs'
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 function Contact() {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        emailjs.sendForm('service_f7ie6ng', 'template_qiwcxef', form.current, 'u64pHZqZEg_NrU9t6')
+        e.target.reset()
+    };
+
     return (
         <section id='contact'>
             <h5>Get in Touch</h5>
@@ -36,7 +47,7 @@ function Contact() {
                         <a href="https://api.whatsapp.com/send?phone=2347038698600" target="_blank" rel="noopener noreferrer">Send a message</a>
                     </article>
                 </div>
-                <form action="">
+                <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name='name' placeholder='Your Name' required />
                     <input type="email" name='email' placeholder='Your Email' required />
                     <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
