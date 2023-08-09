@@ -24,7 +24,7 @@ const About = () => {
                     <article className='about__card'>
                         <FaAward className='about__icon' />
                         <h5>Experience</h5>
-                        <small>3+ Years Working Experience</small>
+                        <small>4+ Years Working Experience</small>
                     </article>
 
                     <article className='about__card'>
@@ -33,16 +33,14 @@ const About = () => {
                         <small>10+ clients Worldwide</small>
                     </article>
 
-                    <article className='about__card'>
+                    {/* <article className='about__card'>
                         <VscFolderLibrary className='about__icon' />
                         <h5>Projects</h5>
                         <small>15+ Completed Projects</small>
-                    </article>
+                    </article> */}
                 </div>
 
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nesciunt perferendis, qui minima esse accusamus repellendus vitae exercitationem ab, accusantium magni quod cum eum culpa aut explicabo at velit voluptates.
-                </p>
+                <p>I am Gift, a skilled backend developer with expertise in Node.js. Proficient in crafting efficient server-side solutions, I excel in API design, database management, and ensuring scalability. My commitment to staying current with industry trends guarantees innovative and dependable outcomes. Let us collaborate to bring your ideas to life and contribute to the advancement of web development.</p>
 
                 <a href="#contact" className='btn btn-primary'> Let&apos;s Talk</a>
 

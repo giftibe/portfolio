@@ -47,54 +47,69 @@ function Service() {
                     <ul className="service__list">
                         <li>
                             <BsCheck className='service__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>Node.js: Expertise in efficient server-side JavaScript.</p>
                         </li>
 
                         <li>
                             <BsCheck className='service__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>API Design: Crafting seamless communication interfaces.</p>
                         </li>
 
                         <li>
                             <BsCheck className='service__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>Database Management: Efficient organization and manipulation of data.</p>
                         </li>
 
                         <li>
                             <BsCheck className='service__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>Scalability Solutions: Ensuring smooth growth of systems.</p>
                         </li>
 
                         <li>
                             <BsCheck className='service__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>Backend Optimization: Enhancing backend processes for optimal performance and more.</p>
+                        </li>
+
+                        <li>
+                            <BsCheck className='service__list-icon' />
+                            <p> System Integration: Seamlessly merging different software components and more.</p>
                         </li>
                     </ul>
                 </article>
 
                 <article className='service'>
                     <div className="service__head">
-                        <h3>Artificial Intellegence</h3>
+                        <h3>Artificial Intellegence (In training)</h3>
                     </div>
                     <ul className="service__list">
                         <li>
                             <BsCheck className='service__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>Machine Learning Models: Developing advanced predictive algorithms.</p>
                         </li>
 
                         <li>
                             <BsCheck className='service__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>Data Preprocessing: Cleaning and transforming data for analysis.</p>
                         </li>
 
                         <li>
                             <BsCheck className='service__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>Model Training: Teaching algorithms to make accurate predictions..</p>
                         </li>
 
                         <li>
                             <BsCheck className='service__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>Model Evaluation: Assessing model performance and accuracy.</p>
+                        </li>
+
+                        <li>
+                            <BsCheck className='service__list-icon' />
+                            <p>Image Recognition: Developing models for visual content analysis.</p>
+                        </li>
+
+                        <li>
+                            <BsCheck className='service__list-icon' />
+                            <p>Sentiment Analysis: Assessing opinions and emotions from text data.</p>
                         </li>
                     </ul>
                 </article>

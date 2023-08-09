@@ -14,7 +14,7 @@ function Header() {
             <div className="container header__container">
                 <h5>Hello I&apos;m</h5>
                 <h1>Gift Ibe</h1>
-                <h5 className='text-light'>Backend Developer</h5>
+                <h5 className='text-light'>Software Developer ( BACKEND )</h5>
                 <Cta />
                 <HeaderSocials />
                 <a href="#contact" className='scroll__down'>Scroll down</a>

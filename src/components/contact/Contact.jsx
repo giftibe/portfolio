@@ -29,14 +29,14 @@ function Contact() {
                     <article className='contact__option'>
                         <MdOutlineMailOutline className='contact__option-icon' />
                         <h4>Email</h4>
-                        <h5>giftibe62@gmail.com</h5>
+                        {/* <h5>giftibe62@gmail.com</h5> */}
                         <a href="mailto:giftibe62@gmail.com" target="_blank" rel="noopener noreferrer">Send a message</a>
                     </article>
 
                     <article className='contact__option'>
                         <BsLinkedin className='contact__option-icon' />
                         <h4>LinkedIn</h4>
-                        <h5>Gift Ibe</h5>
+                        {/* <h5>Gift Ibe</h5> */}
                         <a href="https://www.linkedin.com/in/gift-ibe" target="_blank" rel="noopener noreferrer" >Connect with Me</a>
                     </article>
 
