@@ -37,7 +37,7 @@ function Testimonial() {
                         <img src={client1} alt="Client faces" />
                     </div>
                     <h5 className='client__name'>Victor O.</h5>
-                    <small className='client__review'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quod, recusandae omnis voluptatibus repellendus dolores? Ratione qui porro, rem officia laudantium cumque, vero ipsam labore exercitationem excepturi, corporis dolores sed.</small>
+                    <small className='client__review'>Demonstrating extensive Node.js expertise, our app&apos;s backend underwent a revolutionary shift with remarkable contributions. Gift&apos;s inventive API design notably streamlined user interactions, significantly enhancing overall user experience.</small>
                 </SwiperSlide>
 
                 <SwiperSlide className='testimonial'>
@@ -45,7 +45,7 @@ function Testimonial() {
                         <img src={client2} alt="Client faces" />
                     </div>
                     <h5 className='client__name'>Priscilla Elli</h5>
-                    <small className='client__review'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quod, recusandae omnis voluptatibus repellendus dolores? Ratione qui porro, rem officia laudantium cumque, vero ipsam labore exercitationem excepturi, corporis dolores sed.</small>
+                    <small className='client__review'>Remarkably enhancing data organization and system performance,His adept handling of database management proved pivotal in our collaboration with insights truly invaluable.</small>
                 </SwiperSlide>
 
                 <SwiperSlide className='testimonial'>
@@ -53,7 +53,7 @@ function Testimonial() {
                         <img src={client3} alt="Client faces" />
                     </div>
                     <h5 className='client__name'>Kwame Young</h5>
-                    <small className='client__review'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quod, recusandae omnis voluptatibus repellendus dolores? Ratione qui porro, rem officia laudantium cumque, vero ipsam labore exercitationem excepturi, corporis dolores sed.</small>
+                    <small className='client__review'>Evident in the optimized backend&apos;s remarkable speed enhancements, His expertise working with my team creating a seamless integration was prominent. Having commitment and dedication to excellence; truly commendable.</small>
                 </SwiperSlide>
 
                 <SwiperSlide className='testimonial'>
@@ -61,7 +61,7 @@ function Testimonial() {
                         <img src={client4} alt="Client faces" />
                     </div>
                     <h5 className='client__name'>Canvas Glee</h5>
-                    <small className='client__review'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quod, recusandae omnis voluptatibus repellendus dolores? Ratione qui porro, rem officia laudantium cumque, vero ipsam labore exercitationem excepturi, corporis dolores sed.</small>
+                    <small className='client__review'>Invaluable code performance improvements and proactive error handling showcased his professionalism and eye for details.</small>
                 </SwiperSlide>
             </Swiper>
         </section>
