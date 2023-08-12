@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import CV from '../../assets/CV_.pdf'
+import CV from '../../assets/__curriculum vitae.pdf'
 
 const Cta = () => {
     return (
